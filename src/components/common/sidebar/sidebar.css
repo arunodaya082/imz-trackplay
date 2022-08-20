@@ -1,0 +1,83 @@
+.sidebar { 
+  background-image: linear-gradient(to bottom, #f5f6f8,#deedfb, #bfe7fb, #99e1f5, #6fdce6);
+  position: fixed;
+  top:50;
+  height: 100%;
+  z-index: 1;
+  top: 65px;
+  left: 0;
+  overflow-x: hidden;
+  font-size: 16px;
+  transition: all 0.1s;
+  border-right: 1px solid #92acbe ;
+}
+
+.navlink{
+  display: flex;
+  padding: 10px;
+}
+
+.sidebar_icon{
+  margin-top: 8px;
+  margin-right: 10px;
+  padding-left: 8px;
+}
+
+.sidesubmenu_icon{
+  margin-top: 8px;
+  margin-right: 2px;
+  padding-left: 16px;
+}
+
+.sidebar_title{
+  /* flex:1; */
+  margin-left: 16px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.sidebarsubmenu_title{
+  flex:1;
+margin-left: 18px;
+font-size: 13px;
+font-weight: 500;
+margin-top: 8px;
+}
+
+
+.navlink:hover{
+ background: lightgray;
+}
+
+.navlink:active {
+  background: lightgray;
+}
+
+
+
+.sidebar_Menu{
+  display: flex;
+  align-items: center;
+}
+
+
+.showDivReport{
+display: none;
+}
+
+.showDivReport:hover{
+  display: block;
+  /* height: 150px;
+  overflow: auto; */
+  padding-bottom: 1px;
+
+}
+
+
+.dropdown:hover +.showDivReport{
+  display: block;
+  /* height: 150px;
+  overflow: auto; */
+
+}
